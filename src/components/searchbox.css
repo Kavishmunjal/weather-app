@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #F6F8D5;
+  font-family: "Martel Sans", sans-serif;
+}
+.wrapper{
+    height: 500px;
+    width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background: linear-gradient(135deg, #2EBF91, #8360C3);
+   
+    
+    
+    
+    
+}
+
+#inputbox{
+  border-radius: 40px;
+  height: 35px;
+  background-color: white ;
+  border: none;
+  font-family: "Martel Sans", sans-serif;
+  text-align: center;
+}
+.image{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 80px;
+  left: 150px;
+  
+}
+
+.degree{
+  position: relative;
+  bottom: 100px;
+  left: 160px;
+  color: white;
+}
+
+.name{
+  position: relative;
+  bottom: 140px;
+  left: 150px;
+  color: white;
+}
+
+.wind{
+  position: relative;
+  bottom: 180px;
+  left: 50px;
+  color: white;
+  height: 80px;
+  width: 100px;
+
+     
+}
+h4{
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+  color: black;
+}
+
+.humidity{
+  position: relative;
+  bottom: 260px;
+  left: 300px;
+  color: white;
+  height: 80px;
+  width: 100px;
+}
+
+button{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  position: relative;
+  bottom: 55px;
+  left: 250px;
+}
+
+
+
+.formdiv{
+     height: 150px;
+     width: 300px;
+     margin: auto;
+     padding: 50px;
+
+     
+     
+}
+
+.form{
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds space between input and button */
+  border-radius: 8px;
+  margin-right: 39px;
+  /* background-color: #98D2C0 */
+}
+
+
+
